@@ -1,0 +1,33 @@
+﻿@page
+@model Practica1MCD.Pages.MCDModel
+@{
+
+	<h1 class="text-info">Calculemos el Maximo Común Divisor</h1>
+	<form method="post">
+		<div class="border">
+			<label asp-for="Num1">Ingrese el primer numero</label>
+			<input asp-for="Num1" type="number" class="form-control" />
+
+			<label asp-for="Num2">ingrese el segundo numero</label>
+			<input asp-for="Num2" type="number" class="form-control" />
+
+			<label asp-for="Num3">ingrese el tercer numero</label>
+			<input asp-for="Num3" type="number" class="form-control" />
+			<br />
+
+
+			<input type="submit" value="¡¡calcular!!" asp-page-handler="Resultado" class="btn btn-info" />
+			<br />
+		</div>
+	</form>
+	<div class="border text-center">
+		<label asp-for="Resultado">@Model.Resultado</label>
+	</div>
+
+
+
+
+
+
+
+}
