@@ -1,3 +1,3 @@
 Hello Git
 
-This is a Git test and basic commands.
+This is a Git test and basic commands for web development class
